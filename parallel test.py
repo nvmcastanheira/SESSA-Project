@@ -53,7 +53,7 @@ def pr1(material, params):
 
         out = "PROJECT SAVE OUTPUT \"{}/test{}{}_Thickness_{}\"".format(path1, mat[0],mat[1][0:2],par)
         do(out)
-        time.sleep(3) #Have to add this, or else some threads don't catch up
+        time.sleep(4) #Have to add this, or else some threads don't catch up
         if i == int(len(par1)):
             print("quitting everything")
             ps1.stdin.write(str.encode( "QUIT\n" ))
