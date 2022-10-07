@@ -6,7 +6,7 @@ import tempfile
 import tqdm #Install this! Will change your life GUARANTEED: conda install -c conda-forge tqdm
 
 par1 = range(5,16)
-material = [["Si","O2/ "], ["C"," "]]
+material = [["Si","O2/ "], ["C"," "], ["Ge", ""]]
 params = [str(a) for a in par1]
 
 td = tempfile.TemporaryDirectory()
@@ -64,7 +64,7 @@ for mat in tqdm.tqdm(material, desc = "Material"):
         do("MODEL SIMULATE")
         tend = time.time()
                 
-        out = "PROJECT SAVE OUTPUT \"{}/test\"".format(path)
+        out = "PROJECT SAVE OUTPUT \"{}/test{}{}_Thickness_{}\"".format(path, mat[0],mat[1][0:2],par)
         do(out)
     
 end = time.time()
