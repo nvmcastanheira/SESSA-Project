@@ -1,0 +1,21 @@
+-sample composition and morphology--------------------------------------------------
+ number of layers                      :2
+ relative surface area                 :1.00000
+ #  d[A]        rho[#/cm^3]    material 
+ 1   9.00000     1.10307e+23   Carbon
+ 2  substrate   4.99388e+22    Silicon
+--------------------------------------------------------------------------------
+ layer                                 :1
+ thickness                          [A]:9.00000
+ density                       [#/cm^3]:1.10307e+23   [...1]
+ potential                         [eV]:0.00000e+00
+ ele  Z   atom.frac. chem. state
+  C    6   1.00000                                           
+--------------------------------------------------------------------------------
+ layer                                 :2
+ thickness                          [A]:substrate
+ density                       [#/cm^3]:4.99388e+22   [...1]
+ potential                         [eV]:0.00000e+00
+ ele  Z   atom.frac. chem. state
+ Si   14   1.00000                                           
+--------------------------------------------------------------------------------
