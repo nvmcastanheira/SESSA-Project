@@ -8,5 +8,15 @@ S
 CH4
 LiNbO3
 KTiOPO4
+PbC
+AlO2C
+AuC
+CdSC
+CdC
+In4Sn3O12C
+SC
+CH4C
+LiNbO3C
+KTiOPO4C
 Thickness Range = 10-10nm
-Array dimensions = (10, 1, 2048, 2)
+Array dimensions = (20, 1, 2048, 2)
