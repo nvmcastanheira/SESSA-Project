@@ -18,5 +18,5 @@ CuC
 ZnOC
 LiNbO3C
 KTiOPO4C
-Thickness Range = 40-40nm
+Thickness Range = 40-40 angströms
 Array dimensions = (20, 1, 2048, 2)
